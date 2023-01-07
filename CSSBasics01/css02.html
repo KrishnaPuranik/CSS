@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSSBasics01</title>
+    <title>CSSBasics02 - CSS Class to style an element</title>
     <style>
-        p {
-            color: rosybrown;
+        .blue-text {
+            color: blue;
         }
-
-        h2 {
-            color: blueviolet;
+        .red-text {
+            color: red;
         }
     </style>
-</head>
 <body>
     <h2 style="color: red;">CatPhotoApp</h2>
-    <h2>H2 tag with Global color</h2>
-    <h2>This is H2 tag</h2>
+    <h2 class="blue-text">H2 tag with Global color</h2>
+    <h2 class="red-text">This is H2 tag</h2>
+    <h2 class="red-text">This is another H2 tag</h2>
     <main>
-        <p style="color: green;">Click here to view more <a href="#">cat photos</a></p>
+        <p class="blue-text">Click here to view more <a href="#">cat photos</a></p>
 
         <div>
             <p>Things cats love:</p>
@@ -29,7 +28,7 @@
                 <li>laser pointers</li>
                 <li>lasagna</li>
             </ul>
-            <p>To 3 things cats hate:</p>
+            <p class="blue-text">To 3 things cats hate:</p>
             <ol>
                 <li>flea treatment</li>
                 <li>thunder</li>

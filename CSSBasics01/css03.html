@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSBasics03 - Change the Font Size of an Element</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" type="text/css">
+    <style>
+        .blue-text {
+            color: blue;
+        }
+        .red-text {
+            color: red;
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 25px;
+            font-family: monospace;
+        }
+        
+        h2 {
+            font-family: Lobster, 'Open Sans', monospace;
+        }
+    </style>
+<body>
+    <h2 style="color: red;">CatPhotoApp H2</h2>
+    <h2 class="blue-text">H2 tag with Global color</h2>
+    <h2 class="red-text">This is H2 tag</h2>
+    <h2 class="red-text">This is another H2 tag</h2>
+    <main>
+        <p class="blue-text">Click here to view more (P)<a href="#">cat photos</a></p>
+
+        <div>
+            <p>Things cats love:(P)</p>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <p class="blue-text">To 3 things cats hate:(P)</p>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<style>
+    body {
+        background-color: brown;
+        color: green;
+        font-family: monospace;
+    }
+
+    #orange-text{
+        color: orange;
+    }
+
+    .pink-text {
+        color: pink !important;
+    }
+    /* If both class pink-text and blue-text are used 
+    then blue-text is given priority, because it comes 
+    after pink-text in "style" order or declaration */
+    .blue-text {
+        color: blue;
+    }
+</style>
+
+<h1 class = "pink-text blue-text" id = "orange-text" style = "color: white">
+    Hello World
+</h1>

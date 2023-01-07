@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSBasics08 - Use Attribute Selectors to Style Elements</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" type="text/css">
+    <style>
+        [type='radio'] {
+            margin: 30px;
+        }
+
+        [type='checkbox'] {
+            margin: 10px 0px 15px 0px;
+        }
+
+    </style>
+<body>
+    <main>
+        <form action="submit-cat-photo">
+            <label> <input type="radio" name="indoor-outdoor" checked> Indoor</label>
+            <label> <input type="radio" name="indoor-outdoor"> Outdoor</label>
+            <br>
+            <label> <input type="checkbox" name="personality" checked> Loving</label>
+            <label> <input type="checkbox" name="personality"> Lazy</label>
+            <label> <input type="checkbox" name="personality"> Energetic</label>
+            <br>
+        </form>
+    </main>
+</body>
+</html>
