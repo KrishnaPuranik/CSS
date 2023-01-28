@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 200px;
+            border: 1px solid green;
+            margin: 10px;
+            padding: 25px 5px 10px 10px;
+            box-sizing: border-box;
+        }
+
+        #org {
+            background-color: orange;
+        }
+        #wht {
+            background-color: rgb(100, 115, 65);
+        }
+        #grn {
+            background-color: green;
+        }
+        #div1 {
+            background-color: rebeccapurple;
+            width: 500px;
+            height: 100px;
+            padding: 5px;
+        }
+        #div2 {
+            background-color: aqua;
+            width: 10%;
+            height: 20%;
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="org">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum excepturi quisquam aspernatur esse temporibus placeat perferendis corrupti, laborum odio cupiditate, commodi voluptate neque dignissimos recusandae molestiae. A doloribus voluptate quidem.</div>
+    <div class="box" id="wht">B</div>
+    <div class="box" id="grn">C</div>
+
+    <div id="div1">
+        <div id="div2">
+        </div>
+    </div>
+</body>
+</html>
